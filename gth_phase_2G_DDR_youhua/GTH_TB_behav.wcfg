@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="GTH_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="GTH_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="188597805000fs"></ZoomStartTime>
+      <ZoomEndTime time="240097805001fs"></ZoomEndTime>
+      <Cursor1Time time="197947805000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="165"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/gt0_rxusrclk2_i" type="logic">
+      <obj_property name="ElementShortName">gt0_rxusrclk2_i</obj_property>
+      <obj_property name="ObjectShortName">gt0_rxusrclk2_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/gt0_txdata_i" type="array">
+      <obj_property name="ElementShortName">gt0_txdata_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">gt0_txdata_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/gt0_txcharisk_i" type="array">
+      <obj_property name="ElementShortName">gt0_txcharisk_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">gt0_txcharisk_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/gt1_txdata_i" type="array">
+      <obj_property name="ElementShortName">gt1_txdata_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">gt1_txdata_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/gt1_txcharisk_i" type="array">
+      <obj_property name="ElementShortName">gt1_txcharisk_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">gt1_txcharisk_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/gt0_rxdata_i" type="array">
+      <obj_property name="ElementShortName">gt0_rxdata_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">gt0_rxdata_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/gt0_rxcharisk_i" type="array">
+      <obj_property name="ElementShortName">gt0_rxcharisk_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">gt0_rxcharisk_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/gt1_rxdata_i" type="array">
+      <obj_property name="ElementShortName">gt1_rxdata_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">gt1_rxdata_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/gt1_rxcharisk_i" type="array">
+      <obj_property name="ElementShortName">gt1_rxcharisk_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">gt1_rxcharisk_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/S1/SYSTEM_RESET" type="logic">
+      <obj_property name="ElementShortName">SYSTEM_RESET</obj_property>
+      <obj_property name="ObjectShortName">SYSTEM_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/UU1/S1_data_in" type="array">
+      <obj_property name="ElementShortName">S1_data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">S1_data_in[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/UU1/S2_data_in" type="array">
+      <obj_property name="ElementShortName">S2_data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">S2_data_in[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/UU1/S1_data_tvaild" type="logic">
+      <obj_property name="ElementShortName">S1_data_tvaild</obj_property>
+      <obj_property name="ObjectShortName">S1_data_tvaild</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/UU1/S2_data_tvaild" type="logic">
+      <obj_property name="ElementShortName">S2_data_tvaild</obj_property>
+      <obj_property name="ObjectShortName">S2_data_tvaild</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/UU1/S1_data_out" type="array">
+      <obj_property name="ElementShortName">S1_data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">S1_data_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/UU1/S2_data_out" type="array">
+      <obj_property name="ElementShortName">S2_data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">S2_data_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GTH_TB/GTH_exdes_i/UU1/Number" type="array">
+      <obj_property name="ElementShortName">Number[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Number[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

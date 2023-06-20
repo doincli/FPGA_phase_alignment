@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="FFT_synth_1" LaunchPart="xc7vx690tffg1761-1" LaunchTime="1660198316">
+  <File Type="PA-TCL" Name="FFT.tcl"/>
+  <File Type="REPORTS-TCL" Name="FFT_reports.tcl"/>
+  <File Type="RDS-RDS" Name="FFT.vds"/>
+  <File Type="RDS-UTIL" Name="FFT_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="FFT_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="FFT.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/FFT">
+    <File Path="$PSRCDIR/sources_1/ip/FFT/FFT.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="FFT"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/FFT">
+    <File Path="$PSRCDIR/sources_1/ip/FFT/FFT.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="FFT"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

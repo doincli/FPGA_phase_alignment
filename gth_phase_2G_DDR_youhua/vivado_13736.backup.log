@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Aug 15 16:14:32 2022
+# Process ID: 13736
+# Current directory: C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent568 C:\Users\loser\Desktop\gth_phase_2G_DDR_youhua\GTH_ex.xpr
+# Log file: C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/vivado.log
+# Journal file: C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 1022.156 ; gain = 286.355
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 15 16:44:45 2022...

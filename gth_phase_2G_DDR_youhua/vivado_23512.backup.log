@@ -1,0 +1,157 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Aug 15 14:46:42 2022
+# Process ID: 23512
+# Current directory: C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12996 C:\Users\loser\Desktop\gth_phase_2G_DDR_TEST\GTH_ex.xpr
+# Log file: C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/vivado.log
+# Journal file: C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 1031.855 ; gain = 281.371
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.srcs/sources_1/ip/ila_1/ila_1.xci] -no_script -reset -force -quiet
+remove_files  -fileset ila_1 C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.srcs/sources_1/ip/ila_1/ila_1.xci
+INFO: [Project 1-386] Moving file 'C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.srcs/sources_1/ip/ila_1/ila_1.xci' from fileset 'ila_1' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.srcs/sources_1/ip/ila_2/ila_2.xci] -no_script -reset -force -quiet
+remove_files  -fileset ila_2 C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.srcs/sources_1/ip/ila_2/ila_2.xci
+INFO: [Project 1-386] Moving file 'C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.srcs/sources_1/ip/ila_2/ila_2.xci' from fileset 'ila_2' to fileset 'sources_1'.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.srcs/sources_1/ip/phase_number/phase_number.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.srcs/sources_1/ip/multiplier/multiplier.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.srcs/sources_1/ip/GTH/GTH.xci' is already up-to-date
+[Mon Aug 15 14:53:43 2022] Launched synth_1...
+Run output will be captured here: C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.runs/synth_1/runme.log
+[Mon Aug 15 14:53:44 2022] Launched impl_1...
+Run output will be captured here: C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.runs/impl_1/GTH_exdes.bit} [get_hw_devices xc7vx690t_0]
+set_property PROBES.FILE {C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.runs/impl_1/GTH_exdes.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.runs/impl_1/GTH_exdes.ltx} [get_hw_devices xc7vx690t_0]
+current_hw_device [get_hw_devices xc7vx690t_0]
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-1435] Device xc7vx690t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.runs/impl_1/GTH_exdes.ltx} [get_hw_devices xc7vx690t_0]
+set_property FULL_PROBES.FILE {C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.runs/impl_1/GTH_exdes.ltx} [get_hw_devices xc7vx690t_0]
+set_property PROGRAM.FILE {C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.runs/impl_1/GTH_exdes.bit} [get_hw_devices xc7vx690t_0]
+program_hw_devices [get_hw_devices xc7vx690t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1670.961 ; gain = 0.711
+refresh_hw_device [lindex [get_hw_devices xc7vx690t_0] 0]
+INFO: [Labtools 27-2302] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has 5 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1674.488 ; gain = 3.527
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"TT3/data_buff1/buff"}]]
+WARNING: Simulation object gt0_rxdata_i was not found in the design.
+WARNING: Simulation object gt0_rxcharisk_i was not found in the design.
+WARNING: Simulation object gt1_rxdata_i was not found in the design.
+WARNING: Simulation object gt1_rxcharisk_i was not found in the design.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"TT3/u_Output_wave/ddr3_out1"}]]
+WARNING: Simulation object gt0_txdata_i was not found in the design.
+WARNING: Simulation object gt0_txcharisk_i was not found in the design.
+WARNING: Simulation object gt1_txdata_i was not found in the design.
+WARNING: Simulation object gt1_txcharisk_i was not found in the design.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_3.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"TT3/u_ddr3_rw/wave_data1"}]]
+WARNING: Simulation object TT3/data_buff1/data_in was not found in the design.
+WARNING: Simulation object TT3/data_buff1/tmp_out was not found in the design.
+WARNING: Simulation object TT3/data_buff1/cnt was not found in the design.
+WARNING: Simulation object TT3/data_buff1/buff_flag was not found in the design.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_4.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_5 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ila3"}]]
+WARNING: Simulation object TT3/u_Output_wave/ila_ddr_out was not found in the design.
+WARNING: Simulation object TT3/u_Output_wave/vaild was not found in the design.
+WARNING: Simulation object TT3/u_Output_wave/wave_out was not found in the design.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_5.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+add_wave -into {hw_ila_data_5.wcfg} -radix dec { {ddr3_data_in} }
+add_wave -into {hw_ila_data_5.wcfg} -radix hex { {ddr3_data_in_en} {init_calib_complete} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ila3"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_5' trigger was armed at 2022-Aug-15 15:26:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ila3"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ila3"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_5' triggered at 2022-Aug-15 15:26:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_5.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+add_wave -into {hw_ila_data_4.wcfg} -radix hex { {TT3/u_ddr3_rw/app_addr} {TT3/u_ddr3_rw/app_cmd} {TT3/u_ddr3_rw/wave_data} {TT3/u_ddr3_rw/wr_proc} }
+add_wave -into {hw_ila_data_3.wcfg} -radix dec { {TT3/u_Output_wave/wave_out} }
+add_wave -into {hw_ila_data_3.wcfg} -radix hex { {TT3/u_Output_wave/ila_ddr_out} {TT3/u_Output_wave/vaild} }
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {TT3/data_buff1/buff_flag} {TT3/data_buff1/data_in} {TT3/data_buff1/tmp_out} }
+add_wave -into {hw_ila_data_2.wcfg} -radix unsigned { {TT3/data_buff1/cnt} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Aug-15 15:26:37
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Aug-15 15:26:37
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Aug-15 15:26:43
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Aug-15 15:26:43
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"TT3/data_buff1/buff"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2022-Aug-15 15:26:53
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"TT3/data_buff1/buff"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"TT3/data_buff1/buff"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2022-Aug-15 15:26:53
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Aug-15 15:26:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Aug-15 15:26:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Aug-15 15:27:04
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Aug-15 15:27:04
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Aug-15 15:28:24
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Aug-15 15:28:24
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Aug-15 15:28:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Aug-15 15:28:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Aug-15 15:28:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7vx690t_0] -filter {CELL_NAME=~"ILA0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Aug-15 15:28:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wcfg}
+save_wave_config {C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/hw_1/wave/hw_ila_data_4/hw_ila_data_4.wcfg}
+save_wave_config {C:/Users/loser/Desktop/gth_phase_2G_DDR_TEST/GTH_ex.hw/hw_1/wave/hw_ila_data_5/hw_ila_data_5.wcfg}
+close_hw
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 15 16:07:59 2022...

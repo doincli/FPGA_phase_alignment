@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Aug 15 10:57:58 2022
+# Process ID: 21632
+# Current directory: C:/Users/loser/Desktop/gth_phase_2G_DDR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19888 C:\Users\loser\Desktop\gth_phase_2G_DDR\GTH_ex.xpr
+# Log file: C:/Users/loser/Desktop/gth_phase_2G_DDR/vivado.log
+# Journal file: C:/Users/loser/Desktop/gth_phase_2G_DDR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 1056.816 ; gain = 305.438
+update_compile_order -fileset sources_1

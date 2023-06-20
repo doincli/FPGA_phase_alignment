@@ -1,0 +1,152 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/loser/Desktop/gth_phase_2G/GTH_ex.sim/sim_1/behav/modelsim
+EXqHw/PSyo70r4WMdhLD2WekVMF6OKjfLW9nng1iOo1Y=
+Z1 w1660198318
+Z2 DPx16 c_reg_fd_v12_0_4 25 c_reg_fd_v12_0_4_viv_comp 0 22 :OAMkWFRTIdR7iUKS2@dR1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8../../../../GTH_ex.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd
+Z6 F../../../../GTH_ex.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd
+l0
+L64
+VIm=;VMh<z^DCPPV@c^CZU3
+!s100 D2M4eV=@cXVLSM47LHI?:2
+Z7 OL;C;10.6d;65
+!i119 1
+!i8a 2054751136
+31
+Z8 !s110 1660386998
+!i10b 1
+Z9 !s108 1660386998.000000
+Z10 !s90 -64|-93|-work|c_reg_fd_v12_0_4|../../../../GTH_ex.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd|
+!s107 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd|
+!i113 1
+Z11 o-93 -work c_reg_fd_v12_0_4
+Z12 tExplicit 1 CvgOpt 0
+n29546c4
+AzTafMh2Q2D3i1rfr7up49A==
+R2
+R3
+R4
+DEx4 work 16 c_reg_fd_v12_0_4 0 22 Im=;VMh<z^DCPPV@c^CZU3
+l64
+L64
+VBfMlo[VakBf^932=nC0XF1
+!s100 ;i@55<z3e3j;k<h?Y2@aF1
+R7
+!i119 1
+!i8a 27869376
+31
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd|
+!i113 1
+R11
+R12
+n7f03058
+PtAv3y4ELYV1Z62KQotjeESz8esLd4SyDEcHJMcLIuLA=
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L64
+V;4S77KJfmkc1NM3gjOP@@2
+!s100 Pkdhc8=GBB<R@[Lm5?X@90
+R7
+!i119 1
+!i8a 1388168832
+31
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 1
+R11
+R12
+ncccd220
+Et52U2B4kgp1FoUSx9ZMaznZCVN/OmF3AjJv6YqgsaJc=
+R1
+Z14 DPx17 xbip_utils_v3_0_8 21 xbip_utils_v3_0_8_pkg 0 22 JZbVfnBXJh:?gc0hU44k<0
+R3
+R4
+R0
+R5
+R6
+l0
+L64
+VW5Am6S=C`Sd2;8bY2eQkQ3
+!s100 Fjb_0;3?Bf;i;:11UkXKf0
+R7
+!i119 1
+!i8a 437129088
+31
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 1
+R11
+R12
+n6ccfa46
+Azl35+HNDJIpgf7o0tGnMIg==
+R14
+R3
+R4
+DEx4 work 20 c_reg_fd_v12_0_4_viv 0 22 W5Am6S=C`Sd2;8bY2eQkQ3
+l64
+L64
+V9=DeW<a;i14=Qf8]LVkG13
+!s100 ;7M@^Nk>7`ZDE4L4moM:d0
+R7
+!i119 1
+!i8a 1751285440
+31
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 1
+R11
+R12
+nbac63ec
+P9OF8PJuR6jMG1BWx7eXU8b3NnscgNXDm0XyHYThBRgw=
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L64
+V:OAMkWFRTIdR7iUKS2@dR1
+!s100 gP<[iT^ga9i:1;S@^Bj9h1
+R7
+!i119 1
+!i8a 976612592
+31
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 1
+R11
+R12
+n4e96be0

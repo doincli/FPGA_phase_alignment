@@ -1,0 +1,152 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/loser/Desktop/gth_phase_2G/GTH_ex.sim/sim_1/behav/modelsim
+Ex6H4AG4PyQKKodU3t0RRn5aNZz7UFdSCw2J2f+QY4G8=
+Z1 w1660198318
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+Z5 F../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+l0
+L64
+V`n<`ocY30aLN?ADA@9X7V3
+!s100 QQMVd47TPBKZRGdf8<SR02
+Z6 OL;C;10.6d;65
+!i119 1
+!i8a 1269445136
+31
+Z7 !s110 1660386990
+!i10b 1
+Z8 !s108 1660386990.000000
+Z9 !s90 -64|-93|-work|xbip_pipe_v3_0_4|../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd|
+!s107 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd|
+!i113 1
+Z10 o-93 -work xbip_pipe_v3_0_4
+Z11 tExplicit 1 CvgOpt 0
+nfbcb94
+ABDfo1sVsZc4IaKbERbohqw==
+Z12 DPx17 xbip_utils_v3_0_8 21 xbip_utils_v3_0_8_pkg 0 22 JZbVfnBXJh:?gc0hU44k<0
+DEx16 xbip_pipe_v3_0_4 20 xbip_pipe_v3_0_4_viv 0 22 bY=P@j]R5agZPB66WRF?a0
+R2
+R3
+DEx4 work 16 xbip_pipe_v3_0_4 0 22 `n<`ocY30aLN?ADA@9X7V3
+l64
+L64
+VY:5>Ie77=:o]eHeELe@zS2
+!s100 B]ImD:]Q8nBVI2SNCAO1Y2
+R6
+!i119 1
+!i8a 1865786432
+31
+R7
+!i10b 1
+R8
+R9
+Z13 !s107 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd|
+!i113 1
+R10
+R11
+n7f03058
+PpgTX61BEgZLYVaiJj1AgcCE1OLR8qCTStg1RdOC3wZ4=
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L64
+VQUh45<U@^ic[I0PRCBOed1
+!s100 ?BYHPh<XOScSBC8GU:D=z2
+R6
+!i119 1
+!i8a 856984000
+31
+R7
+!i10b 1
+R8
+R9
+R13
+!i113 1
+R10
+R11
+n9aa3af0
+EGEZ5nCN+C5QWHdVsKVflyXvqhHRA516g9PcuxgK5tZI=
+R1
+R12
+R2
+R3
+R0
+R4
+R5
+l0
+L64
+VbY=P@j]R5agZPB66WRF?a0
+!s100 :>[II1:A4?VYHS?4Z:Fff1
+R6
+!i119 1
+!i8a 1254137664
+31
+R7
+!i10b 1
+R8
+R9
+R13
+!i113 1
+R10
+R11
+nb9a98c6
+AoPKWa7JfT5OguT6QO5q46Q==
+R12
+R2
+R3
+DEx4 work 20 xbip_pipe_v3_0_4_viv 0 22 bY=P@j]R5agZPB66WRF?a0
+l64
+L64
+VWC8ic[jOl^[?Fk_efkF<S0
+!s100 eGC]dmiKIbJ2;O>Bf5o<K1
+R6
+!i119 1
+!i8a 1330374384
+31
+R7
+!i10b 1
+R8
+R9
+R13
+!i113 1
+R10
+R11
+n7b05a8
+P1gt11nV4HDIo/6Mhit1S0NKohHrq0lwXm0sLt7Xbk3U=
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L64
+V@JYINgcVS<dNXG7Y1gf^W0
+!s100 8AQie1[X:A7lJJgPke;Ko0
+R6
+!i119 1
+!i8a 1394539216
+31
+R7
+!i10b 1
+R8
+R9
+R13
+!i113 1
+R10
+R11
+nc1c4dc0

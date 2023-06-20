@@ -1,0 +1,215 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/ila_2/sim/ila_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/ila_1/sim/ila_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/ila_0/sim/ila_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/FIFO/sim/FIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/ila_3/sim/ila_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_0_clk_ibuf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_clk_ibuf
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_0_infrastructure.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_infrastructure
+INFO: [VRFC 10-2458] undeclared symbol pll_clkfbout, assumed default net type wire [C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_0_infrastructure.v:308]
+INFO: [VRFC 10-2458] undeclared symbol clk_pll_i, assumed default net type wire [C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_0_infrastructure.v:342]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_0_iodelay_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_iodelay_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_0_tempmon.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_tempmon
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_arb_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_arb_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_arb_row_col.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_arb_row_col
+WARNING: [VRFC 10-2654] begin/end is required for generate-for in this mode of verilog [C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_arb_row_col.v:252]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_arb_select.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_arb_select
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_bank_cntrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_bank_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_compare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_bank_compare
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_mach.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_bank_mach
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_bank_queue
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_bank_state.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_bank_state
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_col_mach.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_col_mach
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_mc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_mc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_rank_cntrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_rank_cntrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_rank_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_rank_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_rank_mach.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_rank_mach
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_round_robin_arb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_buf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ecc_buf
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_dec_fix.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ecc_dec_fix
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ecc_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_0_ecc_merge_enc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ecc_merge_enc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_0_fi_xor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_fi_xor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_0_memc_ui_top_std.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_memc_ui_top_std
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_0_mem_intfc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_mem_intfc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_byte_group_io
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_byte_lane
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_calib_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_calib_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_if_post_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_if_post_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_mc_phy
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_mc_phy_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_of_pre_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_4lanes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_4lanes
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_dqs_found_cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_dqs_found_cal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_dqs_found_cal_hr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_dqs_found_cal_hr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_cntlr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_ocd_cntlr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_ocd_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_edge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_ocd_edge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_lim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_ocd_lim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_ocd_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_po_cntlr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_ocd_po_cntlr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ocd_samp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_ocd_samp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_oclkdelay_cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_oclkdelay_cal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_prbs_rdlvl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_prbs_rdlvl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_rdlvl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_rdlvl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_tempmon.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_tempmon
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrcal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_wrcal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrlvl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_wrlvl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrlvl_off_delay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_phy_wrlvl_off_delay
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_prbs_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_prbs_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_ddr_skip_calib_tap.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ddr_skip_calib_tap
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_cc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_poc_cc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_edge_store.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_poc_edge_store
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_meta.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_poc_meta
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_pd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_poc_pd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_tap_base.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_poc_tap_base
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_0_poc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_poc_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_0_ui_cmd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ui_cmd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_0_ui_rd_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ui_rd_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_0_ui_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ui_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_0_ui_wr_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_v4_0_ui_wr_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_0_mig
+INFO: [VRFC 10-2458] undeclared symbol dbg_sel_po_incdec, assumed default net type wire [C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v:1094]
+INFO: [VRFC 10-2458] undeclared symbol dbg_po_f_inc, assumed default net type wire [C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v:1098]
+INFO: [VRFC 10-2458] undeclared symbol dbg_po_f_stg23_sel, assumed default net type wire [C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v:1099]
+INFO: [VRFC 10-2458] undeclared symbol dbg_po_f_dec, assumed default net type wire [C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v:1100]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mig_7series_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/ddr3_out/sim/ddr3_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr3_out
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/wave_data/sim/wave_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wave_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLK_RD_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLK_RD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_tx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_TX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_RX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/GTH/gth_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/GTH/gth_cpll_railing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_cpll_railing
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/GTH/gth_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_GT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/GTH/gth_multi_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_multi_gt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_gtrxreset_seq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gth_gtrxreset_seq
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxpmarst_seq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gth_rxpmarst_seq
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxrate_seq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gth_rxrate_seq
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_sync_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_sync_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/ip/GTH/gth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/new/DDR3_CTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DDR3_CTRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/new/FIFO_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/new/FIFO_ctrl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_ctrl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/new/Output_wave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Output_wave
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/new/compare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compare
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/new/cos_S1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cos_S1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/new/cos_S2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cos_S2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/new/data_buff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_buff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/new/ddr3_rw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddr3_rw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/imports/example_design/support/gth_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/imports/example_design/support/gth_common_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_common_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/imports/example_design/gth_exdes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_exdes
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/imports/example_design/support/gth_gt_usrclk_source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_GT_USRCLK_SOURCE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/imports/example_design/support/gth_support.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_support
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sources_1/new/phase_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module phase_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.srcs/sim_1/imports/simulation/gth_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GTH_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

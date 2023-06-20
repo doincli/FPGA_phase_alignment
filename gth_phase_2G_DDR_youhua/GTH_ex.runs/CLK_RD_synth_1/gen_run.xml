@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="CLK_RD_synth_1" LaunchPart="xc7vx690tffg1761-1" LaunchTime="1660444980">
+  <File Type="PA-TCL" Name="CLK_RD.tcl"/>
+  <File Type="REPORTS-TCL" Name="CLK_RD_reports.tcl"/>
+  <File Type="RDS-RDS" Name="CLK_RD.vds"/>
+  <File Type="RDS-UTIL" Name="CLK_RD_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="CLK_RD_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="CLK_RD.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/CLK_RD">
+    <File Path="$PSRCDIR/sources_1/ip/CLK_RD/CLK_RD.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="CLK_RD"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/CLK_RD">
+    <File Path="$PSRCDIR/sources_1/ip/CLK_RD/CLK_RD.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="CLK_RD"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

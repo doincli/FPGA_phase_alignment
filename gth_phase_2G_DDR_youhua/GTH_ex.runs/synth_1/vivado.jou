@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Aug 16 13:36:13 2022
+# Process ID: 18268
+# Current directory: C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/synth_1
+# Command line: vivado.exe -log GTH_exdes.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source GTH_exdes.tcl
+# Log file: C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/synth_1/GTH_exdes.vds
+# Journal file: C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source GTH_exdes.tcl -notrace

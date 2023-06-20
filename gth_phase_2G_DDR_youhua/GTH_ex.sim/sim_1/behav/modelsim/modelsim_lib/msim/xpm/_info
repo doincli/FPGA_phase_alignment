@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/loser/Desktop/gth_phase_2G/GTH_ex.sim/sim_1/behav/modelsim
+Pvcomponents
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+w1513401010
+R0
+8D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_VCOMP.vhd
+FD:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_VCOMP.vhd
+l0
+L11
+Vk5ze2WWnHz003^kCeVE]S3
+!s100 [DM[BbU5;C2]491Yn=bim3
+OL;C;10.6d;65
+31
+!s110 1660386986
+!i10b 1
+!s108 1660386986.000000
+!s90 -64|-93|-work|xpm|D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_VCOMP.vhd|
+!s107 D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_VCOMP.vhd|
+!i113 1
+o-93 -work xpm
+tExplicit 1 CvgOpt 0

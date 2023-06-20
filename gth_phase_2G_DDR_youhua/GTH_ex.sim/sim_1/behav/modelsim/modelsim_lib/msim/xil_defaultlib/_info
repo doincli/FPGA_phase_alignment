@@ -1,0 +1,1289 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/loser/Desktop/gth_phase_2G/GTH_ex.sim/sim_1/behav/modelsim
+Earctan
+Z1 w1660198623
+Z2 DPx14 cordic_v6_0_13 23 cordic_v6_0_13_viv_comp 0 22 lAFZ=FY7c3:L1z]>>M5CO2
+DEx14 cordic_v6_0_13 14 cordic_v6_0_13 0 22 W46Hd7CVfJC8OMbfI>DL80
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8../../../../GTH_ex.srcs/sources_1/ip/arctan/sim/arctan.vhd
+Z7 F../../../../GTH_ex.srcs/sources_1/ip/arctan/sim/arctan.vhd
+l0
+L59
+VoAK`CH^XRob;LgG2L;Y]<3
+!s100 ZfHTC_2]K2elJRCNX:nAQ0
+Z8 OL;C;10.6d;65
+31
+Z9 !s110 1660387000
+!i10b 1
+Z10 !s108 1660387000.000000
+Z11 !s90 -64|-93|-work|xil_defaultlib|../../../../GTH_ex.srcs/sources_1/ip/arctan/sim/arctan.vhd|../../../../GTH_ex.srcs/sources_1/ip/multiplier/sim/multiplier.vhd|
+Z12 !s107 ../../../../GTH_ex.srcs/sources_1/ip/multiplier/sim/multiplier.vhd|../../../../GTH_ex.srcs/sources_1/ip/arctan/sim/arctan.vhd|
+!i113 1
+Z13 o-93 -work xil_defaultlib
+Z14 tExplicit 1 CvgOpt 0
+Aarctan_arch
+R2
+R3
+R4
+R5
+DEx4 work 6 arctan 0 22 oAK`CH^XRob;LgG2L;Y]<3
+l136
+L69
+V>LV9]^LF;3Yg^Vm<JPGNm0
+!s100 C3O7_7i<QRVF2l8Kj0T[z1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+vasym_bwe_bb
+Z15 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z16 !s110 1660386986
+!i10b 1
+!s100 hQBn18Vf5mNDoK:a?Yc[l2
+IJd=SE3C3l1oHGHX9:<]k53
+Z17 VDg1SIo80bB@j0V0VzS_@n1
+Z18 !s105 xpm_memory_sv_unit
+S1
+R0
+Z19 w1513401010
+Z20 8D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Z21 FD:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+L0 6530
+Z22 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z23 !s108 1660386986.000000
+Z24 !s107 D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|
+Z25 !s90 -64|-incr|-sv|-work|xil_defaultlib|+incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD|D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv|D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
+!i113 1
+Z26 o-sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z27 !s92 -sv -work xil_defaultlib +incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z28 tCvgOpt 0
+vCLK_RD
+Z29 !s110 1660387006
+!i10b 1
+!s100 :[OLd8<dEB9;O]0gFR]Ld2
+I869?`zEoN?Vh]0CBZgEHF2
+R17
+R0
+Z30 w1660197874
+8../../../../GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD.v
+F../../../../GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD.v
+Z31 L0 70
+R22
+r1
+!s85 0
+31
+Z32 !s108 1660387006.000000
+Z33 !s107 ../../../../GTH_ex.srcs/sim_1/imports/simulation/gth_tb.v|../../../../GTH_ex.srcs/sources_1/new/phase_top.v|../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_support.v|../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_gt_usrclk_source.v|../../../../GTH_ex.srcs/sources_1/imports/example_design/gth_exdes.v|../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_common_reset.v|../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_common.v|../../../../GTH_ex.srcs/sources_1/new/cos_S2.v|../../../../GTH_ex.srcs/sources_1/new/cos_S1.v|../../../../GTH_ex.srcs/sources_1/new/compare.v|../../../../GTH_ex.srcs/sources_1/new/FIFO_ctrl2.v|../../../../GTH_ex.srcs/sources_1/new/FIFO_ctrl.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/gth.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_sync_block.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxrate_seq.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxpmarst_seq.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_gtrxreset_seq.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_multi_gt.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_gt.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_cpll_railing.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_init.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rx_startup_fsm.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_tx_startup_fsm.v|../../../../GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD.v|../../../../GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD_clk_wiz.v|
+Z34 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD|../../../../GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD_clk_wiz.v|../../../../GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_tx_startup_fsm.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rx_startup_fsm.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_init.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_cpll_railing.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_gt.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_multi_gt.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_gtrxreset_seq.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxpmarst_seq.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxrate_seq.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_sync_block.v|../../../../GTH_ex.srcs/sources_1/ip/GTH/gth.v|../../../../GTH_ex.srcs/sources_1/new/FIFO_ctrl.v|../../../../GTH_ex.srcs/sources_1/new/FIFO_ctrl2.v|../../../../GTH_ex.srcs/sources_1/new/compare.v|../../../../GTH_ex.srcs/sources_1/new/cos_S1.v|../../../../GTH_ex.srcs/sources_1/new/cos_S2.v|../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_common.v|../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_common_reset.v|../../../../GTH_ex.srcs/sources_1/imports/example_design/gth_exdes.v|../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_gt_usrclk_source.v|../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_support.v|../../../../GTH_ex.srcs/sources_1/new/phase_top.v|../../../../GTH_ex.srcs/sim_1/imports/simulation/gth_tb.v|
+!i113 1
+Z35 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z36 !s92 -work xil_defaultlib +incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R28
+n@c@l@k_@r@d
+vCLK_RD_clk_wiz
+R29
+!i10b 1
+!s100 k5>cIH;8dKo[f`igk^<Fa3
+IJBIHLBP6PcY[=gfP7Lg`F3
+R17
+R0
+R30
+8../../../../GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD_clk_wiz.v
+F../../../../GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD_clk_wiz.v
+Z37 L0 68
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@c@l@k_@r@d_clk_wiz
+vcompare
+R29
+!i10b 1
+!s100 FNoW^:1M:3ZjzV?5NiW_U0
+IP^WGefB@z9DIafB;29z660
+R17
+R0
+w1657934940
+8../../../../GTH_ex.srcs/sources_1/new/compare.v
+F../../../../GTH_ex.srcs/sources_1/new/compare.v
+L0 3
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+vcos_S1
+R29
+!i10b 1
+!s100 ;BmT7DJSTFWP^CD[5iVU_0
+IDeQT?U>m6AK63f3T[[XZU2
+R17
+R0
+w1660185204
+8../../../../GTH_ex.srcs/sources_1/new/cos_S1.v
+F../../../../GTH_ex.srcs/sources_1/new/cos_S1.v
+L0 5
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+ncos_@s1
+vcos_S2
+R29
+!i10b 1
+!s100 V3k<IMAjDdh[::mlGS0lM3
+I`7KNL8RbXRT_5]c243LI<3
+R17
+R0
+w1660185225
+8../../../../GTH_ex.srcs/sources_1/new/cos_S2.v
+F../../../../GTH_ex.srcs/sources_1/new/cos_S2.v
+L0 5
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+ncos_@s2
+Efft
+Z38 w1660198315
+Z39 DPx12 xfft_v9_0_14 21 xfft_v9_0_14_viv_comp 0 22 >mc_TKUK^SNEN[6WG_QiS0
+Z40 DPx17 xbip_utils_v3_0_8 21 xbip_utils_v3_0_8_pkg 0 22 JZbVfnBXJh:?gc0hU44k<0
+DEx12 xfft_v9_0_14 12 xfft_v9_0_14 0 22 ACgXCUlm7Omek=ki0<T1a0
+R3
+R4
+R5
+R0
+Z41 8../../../../GTH_ex.srcs/sources_1/ip/FFT/sim/FFT.vhd
+Z42 F../../../../GTH_ex.srcs/sources_1/ip/FFT/sim/FFT.vhd
+l0
+L59
+VQUNc[GFN2A1dCS@hUPFlo0
+!s100 4ifBzo4GXNnomLe_@=0IL0
+R8
+31
+R29
+!i10b 1
+R32
+Z43 !s90 -64|-93|-work|xil_defaultlib|../../../../GTH_ex.srcs/sources_1/ip/FFT/sim/FFT.vhd|
+Z44 !s107 ../../../../GTH_ex.srcs/sources_1/ip/FFT/sim/FFT.vhd|
+!i113 1
+R13
+R14
+Afft_arch
+R39
+R40
+R3
+R4
+R5
+DEx4 work 3 fft 0 22 QUNc[GFN2A1dCS@hUPFlo0
+l191
+L87
+VGTfF5b?F>hjhd>YcO]H?R3
+!s100 obbCjOH`7L[?M[OBLUcmf2
+R8
+31
+R29
+!i10b 1
+R32
+R43
+R44
+!i113 1
+R13
+R14
+vFIFO
+!s110 1660386989
+!i10b 1
+!s100 C^9N>PVJoLR`abN?cCc@]1
+I?g[Wm7[E1V>lbC>TXNOa13
+R17
+R0
+w1660197975
+8../../../../GTH_ex.srcs/sources_1/ip/FIFO/sim/FIFO.v
+F../../../../GTH_ex.srcs/sources_1/ip/FIFO/sim/FIFO.v
+L0 56
+R22
+r1
+!s85 0
+31
+!s108 1660386989.000000
+!s107 ../../../../GTH_ex.srcs/sources_1/ip/FIFO/sim/FIFO.v|
+!s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD|../../../../GTH_ex.srcs/sources_1/ip/FIFO/sim/FIFO.v|
+!i113 1
+R35
+R36
+R28
+n@f@i@f@o
+vFIFO_ctrl
+R29
+!i10b 1
+!s100 k6JWEON8;V67jEPd@8EZU3
+I5RF6;X>XOdT;ZhbLP2YE52
+R17
+R0
+w1657933980
+8../../../../GTH_ex.srcs/sources_1/new/FIFO_ctrl.v
+F../../../../GTH_ex.srcs/sources_1/new/FIFO_ctrl.v
+L0 3
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@f@i@f@o_ctrl
+vFIFO_ctrl2
+R29
+!i10b 1
+!s100 TTFa4[PDHAm0@aU_NX7o:1
+I8eoP_4@O^OQOY8]hOC_BE3
+R17
+R0
+w1654081877
+8../../../../GTH_ex.srcs/sources_1/new/FIFO_ctrl2.v
+F../../../../GTH_ex.srcs/sources_1/new/FIFO_ctrl2.v
+L0 3
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@f@i@f@o_ctrl2
+vglbl
+R29
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+IAl?5;D^:bf?I5A^M>WzmU1
+R17
+R0
+w1513215259
+8glbl.v
+Fglbl.v
+L0 6
+R22
+r1
+!s85 0
+31
+R32
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 1
+R35
+R28
+vGTH
+R29
+!i10b 1
+!s100 J:cO8n9gBKegV2:kF60NU3
+IBDWaj2SI[=_Lo]<JGZP9^0
+R17
+R0
+w1660128702
+8../../../../GTH_ex.srcs/sources_1/ip/GTH/gth.v
+F../../../../GTH_ex.srcs/sources_1/ip/GTH/gth.v
+L0 73
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h
+vGTH_common
+R29
+!i10b 1
+!s100 DP8T10>QHh[O1WDYbNXRB2
+IZ7<44AADJ]B>a@l66HMDB3
+R17
+R0
+Z45 w1660128938
+8../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_common.v
+F../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_common.v
+L0 69
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_common
+vGTH_common_reset
+R29
+!i10b 1
+!s100 :cJZgmKaM3mfG0^dGGA7f1
+I<o=OfHgb:f;Yd8QIBo]:`3
+R17
+R0
+R45
+8../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_common_reset.v
+F../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_common_reset.v
+L0 74
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_common_reset
+vGTH_cpll_railing
+R29
+!i10b 1
+!s100 z]=C8AoX^]G^]@fTDegOz2
+Ih@6PYc8Cm:Rlb`KJQAO<X2
+R17
+R0
+Z46 w1660128699
+8../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_cpll_railing.v
+F../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_cpll_railing.v
+R37
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_cpll_railing
+vGTH_exdes
+R29
+!i10b 1
+!s100 m7E34JnJE<a1QNbBeIHo43
+I?iQ5gd[5eAT9XMkk8B[4a1
+R17
+R0
+w1660320641
+8../../../../GTH_ex.srcs/sources_1/imports/example_design/gth_exdes.v
+F../../../../GTH_ex.srcs/sources_1/imports/example_design/gth_exdes.v
+L0 7
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_exdes
+vGTH_GT
+R29
+!i10b 1
+!s100 P3?I_ZL^1WH=4f13Y`Y?<1
+I[7@X2z>SmQn4VMRP0MYGX3
+R17
+R0
+R46
+8../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_gt.v
+F../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_gt.v
+Z47 L0 71
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_@g@t
+vGTH_GT_USRCLK_SOURCE
+R29
+!i10b 1
+!s100 7Zgf?>8MLk17e63L^OnjM3
+IAl>f`A7SP8CXC^=k;i7Ch1
+R17
+R0
+w1660293734
+8../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_gt_usrclk_source.v
+F../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_gt_usrclk_source.v
+R37
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_@g@t_@u@s@r@c@l@k_@s@o@u@r@c@e
+vgth_gtrxreset_seq
+R29
+!i10b 1
+!s100 RB:^d1YdK8nTOZ4D]9ebZ1
+I5Q8QX?474=`aYk>Yk77Fd1
+R17
+R0
+Z48 w1660128701
+8../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_gtrxreset_seq.v
+F../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_gtrxreset_seq.v
+L0 72
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+vGTH_init
+R29
+!i10b 1
+!s100 aZ0c;@Nanc44@E]YlTW4`1
+IHD>`^^RQ^7Z2J2mgMHKo<0
+R17
+R0
+R46
+8../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_init.v
+F../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_init.v
+R47
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_init
+vGTH_multi_gt
+R29
+!i10b 1
+!s100 N@==GA2UQNKh5X<`1lN`?3
+I0`F5MQVIMkIoXU@RUM1Gf0
+R17
+R0
+w1660128700
+8../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_multi_gt.v
+F../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_multi_gt.v
+R47
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_multi_gt
+vGTH_RX_STARTUP_FSM
+R29
+!i10b 1
+!s100 8@=ggOXS_eJKjdL90UBQd0
+II>cd1i?l1^7mAf3ad=LL53
+R17
+R0
+R46
+8../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rx_startup_fsm.v
+F../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rx_startup_fsm.v
+Z49 L0 94
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_@r@x_@s@t@a@r@t@u@p_@f@s@m
+vgth_rxpmarst_seq
+R29
+!i10b 1
+!s100 Llf5:bZlBXQeeH4EZ_oz@1
+IzAF=:i:P803APcgSNeUNj0
+R17
+R0
+R48
+8../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxpmarst_seq.v
+F../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxpmarst_seq.v
+R31
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+vgth_rxrate_seq
+R29
+!i10b 1
+!s100 Bg<hHhXoVE_UO8e<X`dNU1
+IfdoS;3I0j>dSA]@d3W3eV2
+R17
+R0
+R48
+8../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxrate_seq.v
+F../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxrate_seq.v
+R31
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+vGTH_support
+R29
+!i10b 1
+!s100 ALcT?9oSJ;k0n1;H<HOj42
+I`8LY@k[SMC4hahzeR_7@;0
+R17
+R0
+w1660274284
+8../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_support.v
+F../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_support.v
+R31
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_support
+vGTH_sync_block
+R29
+!i10b 1
+!s100 @Kk;lzf]@=WYljU8gnIgn3
+IcP6VTdRQo;VI_VS]nDeX=3
+R17
+R0
+R48
+8../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_sync_block.v
+F../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_sync_block.v
+L0 78
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_sync_block
+vGTH_TB
+R29
+!i10b 1
+!s100 JeBA<[bY^LY`9QI;MZMVL1
+IS0UUeJ3=Am2ddA11Eo5zd0
+R17
+R0
+w1660321446
+8../../../../GTH_ex.srcs/sim_1/imports/simulation/gth_tb.v
+F../../../../GTH_ex.srcs/sim_1/imports/simulation/gth_tb.v
+L0 3
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_@t@b
+vGTH_TX_STARTUP_FSM
+R29
+!i10b 1
+!s100 91BDLXCX5VWY^G2f;YP5^2
+I24=MEJUblmYjA9^WWME_43
+R17
+R0
+w1660128698
+8../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_tx_startup_fsm.v
+F../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_tx_startup_fsm.v
+R49
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+n@g@t@h_@t@x_@s@t@a@r@t@u@p_@f@s@m
+vila_0
+Z50 !s110 1660386987
+!i10b 1
+!s100 KQWih9DP<LdLYV4Kd_nK43
+I6^eCH=OH1bKOWJY`6AV3b0
+R17
+R0
+w1660214135
+8../../../../GTH_ex.srcs/sources_1/ip/ila_0/sim/ila_0.v
+F../../../../GTH_ex.srcs/sources_1/ip/ila_0/sim/ila_0.v
+Z51 L0 49
+R22
+r1
+!s85 0
+31
+Z52 !s108 1660386987.000000
+Z53 !s107 ../../../../GTH_ex.srcs/sources_1/ip/ila_0/sim/ila_0.v|../../../../GTH_ex.srcs/sources_1/ip/ila_1/sim/ila_1.v|../../../../GTH_ex.srcs/sources_1/ip/ila_2/sim/ila_2.v|
+Z54 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD|../../../../GTH_ex.srcs/sources_1/ip/ila_2/sim/ila_2.v|../../../../GTH_ex.srcs/sources_1/ip/ila_1/sim/ila_1.v|../../../../GTH_ex.srcs/sources_1/ip/ila_0/sim/ila_0.v|
+!i113 1
+R35
+R36
+R28
+vila_1
+R50
+!i10b 1
+!s100 4TL@E>A7EchdThU>XU:h`1
+IfN[L^fPY6J>k@L[S5c8771
+R17
+R0
+w1660214395
+8../../../../GTH_ex.srcs/sources_1/ip/ila_1/sim/ila_1.v
+F../../../../GTH_ex.srcs/sources_1/ip/ila_1/sim/ila_1.v
+R51
+R22
+r1
+!s85 0
+31
+R52
+R53
+R54
+!i113 1
+R35
+R36
+R28
+vila_2
+R50
+!i10b 1
+!s100 ?LlI0O]dBnTcO7D:MNB<71
+Im:XFMK^Z5R3TnffIPCg=M1
+R17
+R0
+w1660214430
+8../../../../GTH_ex.srcs/sources_1/ip/ila_2/sim/ila_2.v
+F../../../../GTH_ex.srcs/sources_1/ip/ila_2/sim/ila_2.v
+R51
+R22
+r1
+!s85 0
+31
+R52
+R53
+R54
+!i113 1
+R35
+R36
+R28
+Emult_gen_0
+Z55 w1660198693
+Z56 DPx17 mult_gen_v12_0_13 26 mult_gen_v12_0_13_viv_comp 0 22 `3^LkFnJb1@QaBR`3`MC@0
+Z57 DEx17 mult_gen_v12_0_13 17 mult_gen_v12_0_13 0 22 JAiRS4837Mn=9flkj56<Y2
+R3
+R4
+R5
+R0
+Z58 8../../../../GTH_ex.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd
+Z59 F../../../../GTH_ex.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd
+l0
+L59
+VL95::H?m0A6O[6LH]9Bn]3
+!s100 C5ab7^]2`48n_Y^cR`o<H1
+R8
+31
+Z60 !s110 1660386998
+!i10b 1
+Z61 !s108 1660386998.000000
+Z62 !s90 -64|-93|-work|xil_defaultlib|../../../../GTH_ex.srcs/sources_1/ip/phase_number/sim/phase_number.vhd|../../../../GTH_ex.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd|
+Z63 !s107 ../../../../GTH_ex.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd|../../../../GTH_ex.srcs/sources_1/ip/phase_number/sim/phase_number.vhd|
+!i113 1
+R13
+R14
+Amult_gen_0_arch
+R56
+R3
+R4
+R5
+DEx4 work 10 mult_gen_0 0 22 L95::H?m0A6O[6LH]9Bn]3
+l113
+L68
+VDG0HORA3YP8BU8ZEY1_CU3
+!s100 cb[nQY6folJ[_UCA86HIO0
+R8
+31
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R13
+R14
+Emultiplier
+Z64 w1660198517
+R56
+R57
+R3
+R4
+R5
+R0
+Z65 8../../../../GTH_ex.srcs/sources_1/ip/multiplier/sim/multiplier.vhd
+Z66 F../../../../GTH_ex.srcs/sources_1/ip/multiplier/sim/multiplier.vhd
+l0
+L59
+VcY]2dn8;mm8`>AVWmI@8k0
+!s100 j<CS=XL2ePl5V;Ud[oLz41
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Amultiplier_arch
+R56
+R3
+R4
+R5
+DEx4 work 10 multiplier 0 22 cY]2dn8;mm8`>AVWmI@8k0
+l113
+L68
+VGN1j@b]ccnfaI;EAMgedk3
+!s100 J9]7TkzY^>R5FMUbL_`T`0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ephase_number
+Z67 w1660198924
+Z68 DPx15 div_gen_v5_1_12 24 div_gen_v5_1_12_viv_comp 0 22 1cY=_4`8DB]5bf1BOg2K=2
+R40
+DEx15 div_gen_v5_1_12 15 div_gen_v5_1_12 0 22 F<N75hP798fi5Z>b3m?XV2
+R3
+R4
+R5
+R0
+Z69 8../../../../GTH_ex.srcs/sources_1/ip/phase_number/sim/phase_number.vhd
+Z70 F../../../../GTH_ex.srcs/sources_1/ip/phase_number/sim/phase_number.vhd
+l0
+L59
+V9nlAKI^[fcA]<c>N8UI0W3
+!s100 XH<2Lz0WFFDIlfnWTP=1>2
+R8
+31
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R13
+R14
+Aphase_number_arch
+R68
+R40
+R3
+R4
+R5
+DEx4 work 12 phase_number 0 22 9nlAKI^[fcA]<c>N8UI0W3
+l135
+L71
+VENFC<VAF^PzmeU@_eRiPD1
+!s100 F4FbMYa8geMQKN[QABQJj1
+R8
+31
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R13
+R14
+vphase_top
+R29
+!i10b 1
+!s100 FN97N`]dPL;gc0Q^TJETd1
+IR`P_7mC;Nkd@^[4nZS[l;1
+R17
+R0
+w1658039062
+8../../../../GTH_ex.srcs/sources_1/new/phase_top.v
+F../../../../GTH_ex.srcs/sources_1/new/phase_top.v
+L0 3
+R22
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 1
+R35
+R36
+R28
+vxpm_cdc_array_single
+R15
+R16
+!i10b 1
+!s100 ==hYFcK4XQC[DcBPCoS1j2
+I6k5aBQOYb1lT^[SeM[=@N0
+R17
+Z71 !s105 xpm_cdc_sv_unit
+S1
+R0
+R19
+Z72 8D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
+Z73 FD:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
+L0 966
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_cdc_async_rst
+R15
+R16
+!i10b 1
+!s100 H366bImg^m5g7:1z7:zRV0
+II0;=6<UOG^=[I<k=F7T;`3
+R17
+R71
+S1
+R0
+R19
+R72
+R73
+L0 1177
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_cdc_gray
+R15
+R16
+!i10b 1
+!s100 b`fTbh]8;>9Db29BhTe`b0
+IQ2DOO>aYP]A?0fN[<BD062
+R17
+R71
+S1
+R0
+R19
+R72
+R73
+L0 300
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_cdc_handshake
+R15
+R16
+!i10b 1
+!s100 OhDW=I4kWN1dOK06Dok`l3
+IA_;>oE]WUj@ef78f>O3zN0
+R17
+R71
+S1
+R0
+R19
+R72
+R73
+L0 500
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_cdc_pulse
+R15
+R16
+!i10b 1
+!s100 YN7XgX_RUNAnRBkcS<;S@1
+I4[o9eH][@U0T;?1_6bFW^0
+R17
+R71
+S1
+R0
+R19
+R72
+R73
+L0 762
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_cdc_single
+R15
+R16
+!i10b 1
+!s100 ?:GHG?]gIjO6C99_S8G_k1
+IO`h6nBc81B`m_CWIiBSOi1
+R17
+R71
+S1
+R0
+R19
+R72
+R73
+L0 153
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_cdc_sync_rst
+R15
+R16
+!i10b 1
+!s100 VVI7]ka4ZceYK=M[AFH1S1
+IMmcVIhozD[XgHnh__aM2m0
+R17
+R71
+S1
+R0
+R19
+R72
+R73
+L0 1045
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_memory_base
+R15
+R16
+!i10b 1
+!s100 `jH3?^3ZGKDmM022:M0nE2
+IHUQ^IRi[@BNQVG7Z6cS6H1
+R17
+R18
+S1
+R0
+R19
+R20
+R21
+L0 57
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_memory_dpdistram
+R15
+R16
+!i10b 1
+!s100 >HjbL769m8UHOZ^n;C6zZ2
+I6NaM`@ZaXiL5_VCLR5W5G0
+R17
+R18
+S1
+R0
+R19
+R20
+R21
+L0 6589
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_memory_dprom
+R15
+R16
+!i10b 1
+!s100 HT24a5e7iVDX5zaU9CE[90
+I5z_LeE_EmdXEiZ0HmNzg:0
+R17
+R18
+S1
+R0
+R19
+R20
+R21
+L0 6723
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_memory_sdpram
+R15
+R16
+!i10b 1
+!s100 1ceS`fF[RWG]0;Af8Sz`N3
+IDXaFQP<WSOIPeMY>3`zHb1
+R17
+R18
+S1
+R0
+R19
+R20
+R21
+L0 6877
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_memory_spram
+R15
+R16
+!i10b 1
+!s100 PR1aUW2GLSzMS;KUXiLIK0
+IaJzE`S`e4]oVOFF9GiT_b2
+R17
+R18
+S1
+R0
+R19
+R20
+R21
+L0 7032
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_memory_sprom
+R15
+R16
+!i10b 1
+!s100 I1MgXeL;QEMGE4<2WFg0H2
+IPGUJA5NT;a33_6:CWzXJJ3
+R17
+R18
+S1
+R0
+R19
+R20
+R21
+L0 7178
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28
+vxpm_memory_tdpram
+R15
+R16
+!i10b 1
+!s100 YhEXBgbdz`Q7_k;KHZFOC2
+I=WU39nz:^aRJleJ:aMacV1
+R17
+R18
+S1
+R0
+R19
+R20
+R21
+L0 7314
+R22
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R26
+R27
+R28

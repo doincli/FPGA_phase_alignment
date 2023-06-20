@@ -1,0 +1,12 @@
+gth_tx_startup_fsm.v,verilog,xil_defaultlib,../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_tx_startup_fsm.v,
+gth_rx_startup_fsm.v,verilog,xil_defaultlib,../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rx_startup_fsm.v,
+gth_init.v,verilog,xil_defaultlib,../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_init.v,
+gth_cpll_railing.v,verilog,xil_defaultlib,../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_cpll_railing.v,
+gth_gt.v,verilog,xil_defaultlib,../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_gt.v,
+gth_multi_gt.v,verilog,xil_defaultlib,../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_multi_gt.v,
+gth_gtrxreset_seq.v,verilog,xil_defaultlib,../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_gtrxreset_seq.v,
+gth_rxpmarst_seq.v,verilog,xil_defaultlib,../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxpmarst_seq.v,
+gth_rxrate_seq.v,verilog,xil_defaultlib,../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxrate_seq.v,
+gth_sync_block.v,verilog,xil_defaultlib,../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_sync_block.v,
+gth.v,verilog,xil_defaultlib,../../../../GTH_ex.srcs/sources_1/ip/GTH/gth.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,773 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Aug 16 13:48:16 2022
+# Process ID: 22152
+# Current directory: C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1
+# Command line: vivado.exe -log GTH_exdes.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source GTH_exdes.tcl -notrace
+# Log file: C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/GTH_exdes.vdi
+# Journal file: C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source GTH_exdes.tcl -notrace
+Command: link_design -top GTH_exdes -part xc7vx690tffg1761-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/ila_0/ila_0.dcp' for cell 'ILA0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/GTH/GTH.dcp' for cell 'GTH_support_i/GTH_init_i'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD.dcp' for cell 'UU1_Sdata_in/TT0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.dcp' for cell 'UU1_Sdata_in/TT1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'UU2/u_ddr3_v2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FFT/FFT.dcp' for cell 'UU3/FF1/UU1_S1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/multiplier/multiplier.dcp' for cell 'UU3/FF2/UU2_S1_IM'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/arctan/arctan.dcp' for cell 'UU3/FF4/UU4_S1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/phase_number/phase_number.dcp' for cell 'UU3/FF5/UU5'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mult_gen_0/mult_gen_0.dcp' for cell 'UU3/FF5/UU5_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/ila_1_1/ila_1.dcp' for cell 'UU5/LL2'
+INFO: [Netlist 29-17] Analyzing 8790 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7vx690tffg1761-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. UU1_Sdata_in/TT0/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. UU2/u_ddr3_v2/u_mig_7series_0_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_addr_obuf[14].u_addr_obuf 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. UU2/u_ddr3_v2/u_mig_7series_0_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/gen_addr_obuf[15].u_addr_obuf 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'UU1_Sdata_in/TT0/clk_in1' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/.Xil/Vivado-22152-LAPTOP-4KAH9RNQ/dcp6/CLK_RD.edf:275]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'UU2/u_ddr3_v2/ddr3_addr[14]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/.Xil/Vivado-22152-LAPTOP-4KAH9RNQ/dcp12/mig_7series_0.edf:534108]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'UU2/u_ddr3_v2/ddr3_addr[14]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/.Xil/Vivado-22152-LAPTOP-4KAH9RNQ/dcp12/mig_7series_0.edf:534109]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'UU2/u_ddr3_v2/ddr3_addr[15]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/.Xil/Vivado-22152-LAPTOP-4KAH9RNQ/dcp12/mig_7series_0.edf:534116]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'UU2/u_ddr3_v2/ddr3_addr[15]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/.Xil/Vivado-22152-LAPTOP-4KAH9RNQ/dcp12/mig_7series_0.edf:534117]
+INFO: [Chipscope 16-324] Core: ILA0 UUID: d34abb12-36f1-5cd2-8b94-0607878095a1 
+INFO: [Chipscope 16-324] Core: UU5/LL2 UUID: 8e169d4a-6bd1-55fa-a33d-adc9e871ae08 
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/GTH/GTH.xdc] for cell 'GTH_support_i/GTH_init_i/inst'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/GTH/GTH.xdc] for cell 'GTH_support_i/GTH_init_i/inst'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD_board.xdc] for cell 'UU1_Sdata_in/TT0/inst'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD_board.xdc] for cell 'UU1_Sdata_in/TT0/inst'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD.xdc] for cell 'UU1_Sdata_in/TT0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD.xdc:57]
+get_clocks: Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 2126.598 ; gain = 720.789
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD.xdc] for cell 'UU1_Sdata_in/TT0/inst'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.xdc] for cell 'UU1_Sdata_in/TT1/U0'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.xdc] for cell 'UU1_Sdata_in/TT1/U0'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.xdc] for cell 'UU1_Sdata_in/TT2/U0'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.xdc] for cell 'UU1_Sdata_in/TT2/U0'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.xdc] for cell 'UU4_Sdata_out/FF1/U0'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.xdc] for cell 'UU4_Sdata_out/FF1/U0'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.xdc] for cell 'UU4_Sdata_out/FF2/U0'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.xdc] for cell 'UU4_Sdata_out/FF2/U0'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ILA0/inst'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ILA0/inst'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ILA0/inst'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ILA0/inst'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'UU2/u_ddr3_v2'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'VCCAUX_IO', because the property does not exist for objects of type 'pin'. [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:421]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'SLEW', because the property does not exist for objects of type 'pin'. [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:422]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:423]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:424]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'VCCAUX_IO', because the property does not exist for objects of type 'pin'. [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:427]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'SLEW', because the property does not exist for objects of type 'pin'. [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:428]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:429]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:430]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'UU2/u_ddr3_v2'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/ila_1_1/ila_v6_2/constraints/ila_impl.xdc] for cell 'UU5/LL2/inst'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/ila_1_1/ila_v6_2/constraints/ila_impl.xdc] for cell 'UU5/LL2/inst'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/ila_1_1/ila_v6_2/constraints/ila.xdc] for cell 'UU5/LL2/inst'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/ila_1_1/ila_v6_2/constraints/ila.xdc] for cell 'UU5/LL2/inst'
+Parsing XDC File [C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/constrs_1/imports/example_design/GTH_exdes.xdc]
+Finished Parsing XDC File [C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/constrs_1/imports/example_design/GTH_exdes.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO.dcp'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO_clocks.xdc] for cell 'UU1_Sdata_in/TT1/U0'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO_clocks.xdc] for cell 'UU1_Sdata_in/TT1/U0'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO_clocks.xdc] for cell 'UU1_Sdata_in/TT2/U0'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO_clocks.xdc] for cell 'UU1_Sdata_in/TT2/U0'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO_clocks.xdc] for cell 'UU4_Sdata_out/FF1/U0'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO_clocks.xdc] for cell 'UU4_Sdata_out/FF1/U0'
+Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO_clocks.xdc] for cell 'UU4_Sdata_out/FF2/U0'
+Finished Parsing XDC File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/FIFO/FIFO_clocks.xdc] for cell 'UU4_Sdata_out/FF2/U0'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 645 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 148 instances
+  IOBUFDS_DCIEN => IOBUFDS_DCIEN (IBUFDS_IBUFDISABLE_INT, IBUFDS_IBUFDISABLE_INT, INV, OBUFTDS_DCIEN, OBUFTDS_DCIEN): 8 instances
+  IOBUF_DCIEN => IOBUF_DCIEN (IBUF_IBUFDISABLE, OBUFT_DCIEN): 64 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 424 instances
+
+26 Infos, 8 Warnings, 8 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:01:10 ; elapsed = 00:01:08 . Memory (MB): peak = 2186.285 ; gain = 1807.727
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx690t'
+Parsing TCL File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/GTH/tcl/v7ht.tcl] from IP C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/GTH/GTH.xci
+Sourcing Tcl File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/GTH/tcl/v7ht.tcl]
+
+****************************************************************************************
+*  WARNING: This script only supports the xc7vh290t, xc7vh580t and xc7vh870t devices.  *
+*           Your current part is xc7vx690t.                                            *
+****************************************************************************************
+
+Finished Sourcing Tcl File [c:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.srcs/sources_1/ip/GTH/tcl/v7ht.tcl]
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2186.285 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-318] Generating core instance : dbg_hub
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Netlist 29-17] Analyzing 8156 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2186.285 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.163 . Memory (MB): peak = 2186.285 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 1bb43d10b
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:01:36 . Memory (MB): peak = 2186.285 ; gain = 0.000
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 15 inverter(s) to 85 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: fc3c62c7
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:01:45 . Memory (MB): peak = 2186.285 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 1065 cells and removed 1404 cells
+
+Phase 3 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 3 Constant propagation | Checksum: d3c5ad78
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:01:48 . Memory (MB): peak = 2186.285 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 126 cells and removed 2151 cells
+
+Phase 4 Sweep
+Phase 4 Sweep | Checksum: 147793c1b
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:01:53 . Memory (MB): peak = 2186.285 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 2026 cells
+
+Phase 5 BUFG optimization
+Phase 5 BUFG optimization | Checksum: 147793c1b
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:01:56 . Memory (MB): peak = 2186.285 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 6 Shift Register Optimization
+Phase 6 Shift Register Optimization | Checksum: 1279c7979
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:01:58 . Memory (MB): peak = 2186.285 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 6 cells and removed 18 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.237 . Memory (MB): peak = 2186.285 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: c68a4f1b
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:02:01 . Memory (MB): peak = 2186.285 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=1.317 | TNS=0.000 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 2 BRAM(s) out of a total of 476 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-201] Structural ODC has moved 2 WE to EN ports
+Number of BRAM Ports augmented: 18 newly gated: 2 Total Ports: 952
+Ending PowerOpt Patch Enables Task | Checksum: fbdcd5e2
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 3525.660 ; gain = 0.000
+Ending Power Optimization Task | Checksum: fbdcd5e2
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:02 . Memory (MB): peak = 3525.660 ; gain = 1339.375
+INFO: [Common 17-83] Releasing license: Implementation
+55 Infos, 8 Warnings, 8 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:02:44 ; elapsed = 00:03:18 . Memory (MB): peak = 3525.660 ; gain = 1339.375
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.157 . Memory (MB): peak = 3525.660 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/GTH_exdes_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 3525.660 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file GTH_exdes_drc_opted.rpt -pb GTH_exdes_drc_opted.pb -rpx GTH_exdes_drc_opted.rpx
+Command: report_drc -file GTH_exdes_drc_opted.rpt -pb GTH_exdes_drc_opted.pb -rpx GTH_exdes_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/GTH_exdes_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 3525.660 ; gain = 0.000
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1839 rule limit reached: 20 violations have been found.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[10] (net: UU2/data_buff1/cnt_reg_rep_0_i_6_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[11] (net: UU2/data_buff1/cnt_reg_rep_0_i_5__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[12] (net: UU2/data_buff1/cnt_reg_rep_0_i_4__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[13] (net: UU2/data_buff1/cnt_reg_rep_0_i_3__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[14] (net: UU2/data_buff1/cnt_reg_rep_0_i_2__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[5] (net: UU2/data_buff1/cnt_reg_rep_0_i_11_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[6] (net: UU2/data_buff1/cnt_reg_rep_0_i_10__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[7] (net: UU2/data_buff1/cnt_reg_rep_0_i_9_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[8] (net: UU2/data_buff1/cnt_reg_rep_0_i_8_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[9] (net: UU2/data_buff1/cnt_reg_rep_0_i_7_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ENARDEN (net: UU2/data_buff1/cnt_reg_rep_0_i_1_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[10] (net: UU2/data_buff1/cnt_reg_rep_0_i_6_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[11] (net: UU2/data_buff1/cnt_reg_rep_0_i_5__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[12] (net: UU2/data_buff1/cnt_reg_rep_0_i_4__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[13] (net: UU2/data_buff1/cnt_reg_rep_0_i_3__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[14] (net: UU2/data_buff1/cnt_reg_rep_0_i_2__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[6] (net: UU2/data_buff1/cnt_reg_rep_0_i_10__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[7] (net: UU2/data_buff1/cnt_reg_rep_0_i_9_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[8] (net: UU2/data_buff1/cnt_reg_rep_0_i_8_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[9] (net: UU2/data_buff1/cnt_reg_rep_0_i_7_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 21 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.155 . Memory (MB): peak = 3525.660 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 80a860d5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.178 . Memory (MB): peak = 3525.660 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.157 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: da7cff5b
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:33 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1af049f0f
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:53 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1af049f0f
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:53 . Memory (MB): peak = 3525.660 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1af049f0f
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:53 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 1f35d0f17
+
+Time (s): cpu = 00:02:48 ; elapsed = 00:01:52 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1f35d0f17
+
+Time (s): cpu = 00:02:48 ; elapsed = 00:01:52 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1dd9e925b
+
+Time (s): cpu = 00:03:14 ; elapsed = 00:02:09 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1bb8380e1
+
+Time (s): cpu = 00:03:15 ; elapsed = 00:02:09 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1c2f845e4
+
+Time (s): cpu = 00:03:16 ; elapsed = 00:02:10 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 1c2f845e4
+
+Time (s): cpu = 00:03:16 ; elapsed = 00:02:10 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 1c2f845e4
+
+Time (s): cpu = 00:03:16 ; elapsed = 00:02:10 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 136421b0b
+
+Time (s): cpu = 00:03:41 ; elapsed = 00:02:36 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: b9ff84f8
+
+Time (s): cpu = 00:03:44 ; elapsed = 00:02:39 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: b9197555
+
+Time (s): cpu = 00:03:45 ; elapsed = 00:02:40 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 3.10 Fast Optimization
+Phase 3.10 Fast Optimization | Checksum: b9197555
+
+Time (s): cpu = 00:03:58 ; elapsed = 00:02:47 . Memory (MB): peak = 3525.660 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: b9197555
+
+Time (s): cpu = 00:03:59 ; elapsed = 00:02:48 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 66a32539
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Place 46-33] Processed net rst_n, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-33] Processed net UU2/u_Output_wave/start_out_i_1_n_0, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-33] Processed net UU2/data_buff1/out_en_i_1_n_0, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-33] Processed net UU3/FF1/UU1_S2/U0/i_synth/axi_wrapper/ce_w2c, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-33] Processed net UU3/FF1/UU1_S1/U0/i_synth/axi_wrapper/ce_w2c, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-31] BUFG insertion identified 5 candidate nets, 0 success, 5 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 66a32539
+
+Time (s): cpu = 00:04:33 ; elapsed = 00:03:12 . Memory (MB): peak = 3525.660 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.317. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 43582e0f
+
+Time (s): cpu = 00:04:33 ; elapsed = 00:03:13 . Memory (MB): peak = 3525.660 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 43582e0f
+
+Time (s): cpu = 00:04:34 ; elapsed = 00:03:13 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 43582e0f
+
+Time (s): cpu = 00:04:35 ; elapsed = 00:03:14 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 43582e0f
+
+Time (s): cpu = 00:04:36 ; elapsed = 00:03:15 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: e30cc549
+
+Time (s): cpu = 00:04:36 ; elapsed = 00:03:15 . Memory (MB): peak = 3525.660 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: e30cc549
+
+Time (s): cpu = 00:04:37 ; elapsed = 00:03:16 . Memory (MB): peak = 3525.660 ; gain = 0.000
+Ending Placer Task | Checksum: d44789da
+
+Time (s): cpu = 00:04:37 ; elapsed = 00:03:16 . Memory (MB): peak = 3525.660 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+82 Infos, 29 Warnings, 8 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:04:47 ; elapsed = 00:03:25 . Memory (MB): peak = 3525.660 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 3525.660 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/GTH_exdes_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:29 ; elapsed = 00:00:14 . Memory (MB): peak = 3525.660 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file GTH_exdes_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.245 . Memory (MB): peak = 3525.660 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file GTH_exdes_utilization_placed.rpt -pb GTH_exdes_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3525.660 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file GTH_exdes_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.237 . Memory (MB): peak = 3525.660 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 46f8e37 ConstDB: 0 ShapeSum: cfd7fba3 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 6efdc88e
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:01 . Memory (MB): peak = 3525.660 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 29ddb NumContArr: 6efb2ab3 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 6efdc88e
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:04 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 6efdc88e
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:05 . Memory (MB): peak = 3525.660 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 6efdc88e
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:05 . Memory (MB): peak = 3525.660 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 16b14f2d7
+
+Time (s): cpu = 00:02:31 ; elapsed = 00:01:32 . Memory (MB): peak = 3525.660 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.284  | TNS=0.000  | WHS=-0.434 | THS=-2327.059|
+
+
+Phase 2.5 Update Timing for Bus Skew
+
+Phase 2.5.1 Update Timing
+Phase 2.5.1 Update Timing | Checksum: 1618a8cee
+
+Time (s): cpu = 00:02:53 ; elapsed = 00:01:46 . Memory (MB): peak = 3588.734 ; gain = 63.074
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.284  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 2.5 Update Timing for Bus Skew | Checksum: 1b633a250
+
+Time (s): cpu = 00:02:53 ; elapsed = 00:01:47 . Memory (MB): peak = 3588.734 ; gain = 63.074
+Phase 2 Router Initialization | Checksum: 1266889d0
+
+Time (s): cpu = 00:02:54 ; elapsed = 00:01:47 . Memory (MB): peak = 3588.734 ; gain = 63.074
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1d4a0eaac
+
+Time (s): cpu = 00:04:18 ; elapsed = 00:02:31 . Memory (MB): peak = 3602.242 ; gain = 76.582
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 6572
+ Number of Nodes with overlaps = 341
+ Number of Nodes with overlaps = 10
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.229  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 18916f762
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:03:01 . Memory (MB): peak = 3602.242 ; gain = 76.582
+Phase 4 Rip-up And Reroute | Checksum: 18916f762
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:03:01 . Memory (MB): peak = 3602.242 ; gain = 76.582
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1d23a7633
+
+Time (s): cpu = 00:05:15 ; elapsed = 00:03:05 . Memory (MB): peak = 3602.242 ; gain = 76.582
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.229  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 1e951a49f
+
+Time (s): cpu = 00:05:15 ; elapsed = 00:03:05 . Memory (MB): peak = 3602.242 ; gain = 76.582
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1e951a49f
+
+Time (s): cpu = 00:05:15 ; elapsed = 00:03:05 . Memory (MB): peak = 3602.242 ; gain = 76.582
+Phase 5 Delay and Skew Optimization | Checksum: 1e951a49f
+
+Time (s): cpu = 00:05:16 ; elapsed = 00:03:05 . Memory (MB): peak = 3602.242 ; gain = 76.582
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 23c0363ad
+
+Time (s): cpu = 00:05:22 ; elapsed = 00:03:10 . Memory (MB): peak = 3602.242 ; gain = 76.582
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.229  | TNS=0.000  | WHS=0.032  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1b34a9a04
+
+Time (s): cpu = 00:05:22 ; elapsed = 00:03:10 . Memory (MB): peak = 3602.242 ; gain = 76.582
+Phase 6 Post Hold Fix | Checksum: 1b34a9a04
+
+Time (s): cpu = 00:05:22 ; elapsed = 00:03:10 . Memory (MB): peak = 3602.242 ; gain = 76.582
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.65401 %
+  Global Horizontal Routing Utilization  = 3.33238 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1e3eb0c91
+
+Time (s): cpu = 00:05:23 ; elapsed = 00:03:11 . Memory (MB): peak = 3602.242 ; gain = 76.582
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1e3eb0c91
+
+Time (s): cpu = 00:05:23 ; elapsed = 00:03:11 . Memory (MB): peak = 3602.242 ; gain = 76.582
+
+Phase 9 Depositing Routes
+INFO: [Route 35-467] Router swapped GT pin GTH_support_i/GTH_init_i/inst/GTH_i/gt0_GTH_i/gthe2_i/GTREFCLK0 to physical pin GTHE2_CHANNEL_X1Y20/GTGREFCLK
+INFO: [Route 35-467] Router swapped GT pin GTH_support_i/GTH_init_i/inst/GTH_i/gt1_GTH_i/gthe2_i/GTREFCLK0 to physical pin GTHE2_CHANNEL_X1Y21/GTGREFCLK
+Phase 9 Depositing Routes | Checksum: 1d6da0144
+
+Time (s): cpu = 00:05:29 ; elapsed = 00:03:16 . Memory (MB): peak = 3602.242 ; gain = 76.582
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.229  | TNS=0.000  | WHS=0.032  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1d6da0144
+
+Time (s): cpu = 00:05:29 ; elapsed = 00:03:17 . Memory (MB): peak = 3602.242 ; gain = 76.582
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:05:29 ; elapsed = 00:03:17 . Memory (MB): peak = 3602.242 ; gain = 76.582
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+105 Infos, 29 Warnings, 8 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:05:43 ; elapsed = 00:03:26 . Memory (MB): peak = 3602.242 ; gain = 76.582
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:23 ; elapsed = 00:00:08 . Memory (MB): peak = 3602.242 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/GTH_exdes_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:31 ; elapsed = 00:00:14 . Memory (MB): peak = 3602.242 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file GTH_exdes_drc_routed.rpt -pb GTH_exdes_drc_routed.pb -rpx GTH_exdes_drc_routed.rpx
+Command: report_drc -file GTH_exdes_drc_routed.rpt -pb GTH_exdes_drc_routed.pb -rpx GTH_exdes_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/GTH_exdes_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:26 ; elapsed = 00:00:14 . Memory (MB): peak = 3602.242 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_methodology -file GTH_exdes_methodology_drc_routed.rpt -pb GTH_exdes_methodology_drc_routed.pb -rpx GTH_exdes_methodology_drc_routed.rpx
+Command: report_methodology -file GTH_exdes_methodology_drc_routed.rpt -pb GTH_exdes_methodology_drc_routed.pb -rpx GTH_exdes_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/loser/Desktop/gth_phase_2G_DDR_youhua/GTH_ex.runs/impl_1/GTH_exdes_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:56 ; elapsed = 00:00:34 . Memory (MB): peak = 3750.047 ; gain = 147.805
+INFO: [runtcl-4] Executing : report_power -file GTH_exdes_power_routed.rpt -pb GTH_exdes_power_summary_routed.pb -rpx GTH_exdes_power_routed.rpx
+Command: report_power -file GTH_exdes_power_routed.rpt -pb GTH_exdes_power_summary_routed.pb -rpx GTH_exdes_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+117 Infos, 29 Warnings, 8 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:58 ; elapsed = 00:00:40 . Memory (MB): peak = 3834.059 ; gain = 84.012
+INFO: [runtcl-4] Executing : report_route_status -file GTH_exdes_route_status.rpt -pb GTH_exdes_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file GTH_exdes_timing_summary_routed.rpt -rpx GTH_exdes_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file GTH_exdes_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file GTH_exdes_clock_utilization_routed.rpt
+report_clock_utilization: Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 3867.734 ; gain = 3.551
+Command: write_bitstream -force GTH_exdes.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx690t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx690t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC CFGBVS-1] Missing CFGBVS and CONFIG_VOLTAGE Design Properties: Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1839 rule limit reached: 20 violations have been found.
+WARNING: [DRC PDRC-153] Gated clock check: Net UU2/u_ddr3_rw/next_state_reg[3]_i_2_n_0 is a gated clock net sourced by a combinational pin UU2/u_ddr3_rw/next_state_reg[3]_i_2/O, cell UU2/u_ddr3_rw/next_state_reg[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC REQP-45] must_use_ref_clock: GTHE2_COMMON cell GTH_support_i/common0_i/gthe2_common_i: An input reference clock pin (GTREFCLK0, GTREFCLK1, GTNORTHREFCLK0, GTNORTHREFCLK1, GTSOUTHREFCLK0, GTSOUTHREFCLK1 and set QPLLREFCLKSEL[2:0] appropriately) must be used (unless this cell is just to set needed configuration).
+WARNING: [DRC REQP-1709] Clock output buffering: PLLE2_ADV connectivity violation. The signal UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/pll_clk3_out on the UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3 pin of UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/plle2_i does not drive the same kind of BUFFER load as the other CLKOUT pins. Routing from the different buffer types will not be phase aligned.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[10] (net: UU2/data_buff1/cnt_reg_rep_0_i_6_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[11] (net: UU2/data_buff1/cnt_reg_rep_0_i_5__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[12] (net: UU2/data_buff1/cnt_reg_rep_0_i_4__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[13] (net: UU2/data_buff1/cnt_reg_rep_0_i_3__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[14] (net: UU2/data_buff1/cnt_reg_rep_0_i_2__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[5] (net: UU2/data_buff1/cnt_reg_rep_0_i_11_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[6] (net: UU2/data_buff1/cnt_reg_rep_0_i_10__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[7] (net: UU2/data_buff1/cnt_reg_rep_0_i_9_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[8] (net: UU2/data_buff1/cnt_reg_rep_0_i_8_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ADDRARDADDR[9] (net: UU2/data_buff1/cnt_reg_rep_0_i_7_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_0 has an input control pin UU2/data_buff1/cnt_reg_rep_0/ENARDEN (net: UU2/data_buff1/cnt_reg_rep_0_i_1_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[10] (net: UU2/data_buff1/cnt_reg_rep_0_i_6_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[11] (net: UU2/data_buff1/cnt_reg_rep_0_i_5__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[12] (net: UU2/data_buff1/cnt_reg_rep_0_i_4__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[13] (net: UU2/data_buff1/cnt_reg_rep_0_i_3__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[14] (net: UU2/data_buff1/cnt_reg_rep_0_i_2__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[6] (net: UU2/data_buff1/cnt_reg_rep_0_i_10__0_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[7] (net: UU2/data_buff1/cnt_reg_rep_0_i_9_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[8] (net: UU2/data_buff1/cnt_reg_rep_0_i_8_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 UU2/data_buff1/cnt_reg_rep_1 has an input control pin UU2/data_buff1/cnt_reg_rep_1/ADDRARDADDR[9] (net: UU2/data_buff1/cnt_reg_rep_0_i_7_n_0) which is driven by a register (UU2/u_ddr3_v2/u_mig_7series_0_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC RTSTAT-10] No routable loads: 49 net(s) have no routable loads. The problem bus(es) and/or net(s) are UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/ENA_dly_D, UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/ENA_dly_D, UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1], UU4_Sdata_out/FF2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, UU4_Sdata_out/FF1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, UU1_Sdata_in/TT2/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, UU1_Sdata_in/TT1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0]... and (the first 15 of 47 listed).
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[1].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[2].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[0].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[0].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-4] enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[3].natural_order_input.PE/has_TW_mult.MULT/i_cmpy/four_mult_structure.use_dsp.i_dsp/re_im/use_DSP48.qDSP[1].appDSP[0].bppDSP[0].u_l[1].use_dsp48e1.dsp: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/has_bit_reverse.dig_rev_mem/blk_ram.use_bram_only.mem/depths_3to9.ram_loop[0].use_RAMB18.SDP_RAMB18E1_36x512) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/has_bit_reverse.dig_rev_mem/blk_ram.use_bram_only.mem/depths_3to9.ram_loop[1].use_RAMB18.SDP_RAMB18E1_36x512) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/FB_1.BF_1/MEM/blk_ram.use_bram_only.mem/depths_3to9.ram_loop[0].use_RAMB18.SDP_RAMB18E1_36x512) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (UU3/FF1/UU1_S1/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/hasbf2.FB_2.BF_2/MEM/blk_ram.use_bram_only.mem/depths_3to9.ram_loop[0].use_RAMB18.SDP_RAMB18E1_36x512) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/has_bit_reverse.dig_rev_mem/blk_ram.use_bram_only.mem/depths_3to9.ram_loop[0].use_RAMB18.SDP_RAMB18E1_36x512) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/has_bit_reverse.dig_rev_mem/blk_ram.use_bram_only.mem/depths_3to9.ram_loop[1].use_RAMB18.SDP_RAMB18E1_36x512) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/FB_1.BF_1/MEM/blk_ram.use_bram_only.mem/depths_3to9.ram_loop[0].use_RAMB18.SDP_RAMB18E1_36x512) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (UU3/FF1/UU1_S2/U0/i_synth/xfft_inst/non_floating_point.arch_d.xfft_inst/pe_gen[0].natural_order_input.PE/hasbf2.FB_2.BF_2/MEM/blk_ram.use_bram_only.mem/depths_3to9.ram_loop[0].use_RAMB18.SDP_RAMB18E1_36x512) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 26 Warnings, 40 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Project 1-821] Please set project.enableDesignId to be 'true'.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./GTH_exdes.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-83] Releasing license: Implementation
+174 Infos, 56 Warnings, 8 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:02:31 ; elapsed = 00:01:42 . Memory (MB): peak = 4714.531 ; gain = 842.738
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 16 14:04:28 2022...

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="clk_80_200_synth_1" LaunchDir="C:/Users/loser/Desktop/gth_phase_ex_2G/GTH_ex.runs/clk_80_200_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

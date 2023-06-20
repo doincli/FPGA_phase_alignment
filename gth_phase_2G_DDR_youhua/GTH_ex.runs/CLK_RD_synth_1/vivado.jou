@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Aug 14 10:43:01 2022
+# Process ID: 604
+# Current directory: C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.runs/CLK_RD_synth_1
+# Command line: vivado.exe -log CLK_RD.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CLK_RD.tcl
+# Log file: C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.runs/CLK_RD_synth_1/CLK_RD.vds
+# Journal file: C:/Users/loser/Desktop/gth_phase_2G_DDR/GTH_ex.runs/CLK_RD_synth_1\vivado.jou
+#-----------------------------------------------------------
+source CLK_RD.tcl -notrace

@@ -1,0 +1,385 @@
+# do {GTH_TB_compile.do}
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xpm modelsim_lib/msim/xpm 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap fifo_generator_v13_2_1 modelsim_lib/msim/fifo_generator_v13_2_1 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xbip_utils_v3_0_8 modelsim_lib/msim/xbip_utils_v3_0_8 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap axi_utils_v2_0_4 modelsim_lib/msim/axi_utils_v2_0_4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xbip_pipe_v3_0_4 modelsim_lib/msim/xbip_pipe_v3_0_4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xbip_dsp48_wrapper_v3_0_4 modelsim_lib/msim/xbip_dsp48_wrapper_v3_0_4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xbip_dsp48_addsub_v3_0_4 modelsim_lib/msim/xbip_dsp48_addsub_v3_0_4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xbip_bram18k_v3_0_4 modelsim_lib/msim/xbip_bram18k_v3_0_4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap mult_gen_v12_0_13 modelsim_lib/msim/mult_gen_v12_0_13 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap floating_point_v7_0_14 modelsim_lib/msim/floating_point_v7_0_14 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xbip_dsp48_mult_v3_0_4 modelsim_lib/msim/xbip_dsp48_mult_v3_0_4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xbip_dsp48_multadd_v3_0_4 modelsim_lib/msim/xbip_dsp48_multadd_v3_0_4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap div_gen_v5_1_12 modelsim_lib/msim/div_gen_v5_1_12 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap c_reg_fd_v12_0_4 modelsim_lib/msim/c_reg_fd_v12_0_4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xbip_addsub_v3_0_4 modelsim_lib/msim/xbip_addsub_v3_0_4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap c_addsub_v12_0_11 modelsim_lib/msim/c_addsub_v12_0_11 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap cordic_v6_0_13 modelsim_lib/msim/cordic_v6_0_13 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap c_mux_bit_v12_0_4 modelsim_lib/msim/c_mux_bit_v12_0_4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap c_shift_ram_v12_0_11 modelsim_lib/msim/c_shift_ram_v12_0_11 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap cmpy_v6_0_14 modelsim_lib/msim/cmpy_v6_0_14 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xfft_v9_0_14 modelsim_lib/msim/xfft_v9_0_14 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:26 on Aug 13,2022
+# vlog -64 -incr -sv -work xil_defaultlib "+incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD" D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv 
+# -- Compiling module xpm_cdc_single
+# -- Compiling module xpm_cdc_gray
+# -- Compiling module xpm_cdc_handshake
+# -- Compiling module xpm_cdc_pulse
+# -- Compiling module xpm_cdc_array_single
+# -- Compiling module xpm_cdc_sync_rst
+# -- Compiling module xpm_cdc_async_rst
+# -- Compiling module xpm_memory_base
+# -- Compiling module asym_bwe_bb
+# -- Compiling module xpm_memory_dpdistram
+# -- Compiling module xpm_memory_dprom
+# -- Compiling module xpm_memory_sdpram
+# -- Compiling module xpm_memory_spram
+# -- Compiling module xpm_memory_sprom
+# -- Compiling module xpm_memory_tdpram
+# 
+# Top level modules:
+# 	xpm_cdc_gray
+# 	xpm_cdc_handshake
+# 	xpm_cdc_pulse
+# 	xpm_cdc_array_single
+# 	xpm_cdc_sync_rst
+# 	xpm_cdc_async_rst
+# 	xpm_memory_dpdistram
+# 	xpm_memory_dprom
+# 	xpm_memory_sdpram
+# 	xpm_memory_spram
+# 	xpm_memory_sprom
+# 	xpm_memory_tdpram
+# End time: 18:36:26 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:26 on Aug 13,2022
+# vcom -64 -93 -work xpm D:/Vivado/Vivado/2017.4/data/ip/xpm/xpm_VCOMP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package VCOMPONENTS
+# End time: 18:36:26 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:27 on Aug 13,2022
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD" ../../../../GTH_ex.srcs/sources_1/ip/ila_2/sim/ila_2.v ../../../../GTH_ex.srcs/sources_1/ip/ila_1/sim/ila_1.v ../../../../GTH_ex.srcs/sources_1/ip/ila_0/sim/ila_0.v 
+# -- Compiling module ila_2
+# -- Compiling module ila_1
+# -- Compiling module ila_0
+# 
+# Top level modules:
+# 	ila_2
+# 	ila_1
+# 	ila_0
+# End time: 18:36:27 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:27 on Aug 13,2022
+# vlog -64 -incr -work fifo_generator_v13_2_1 "+incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD" ../../../../GTH_ex.ip_user_files/ipstatic/simulation/fifo_generator_vlog_beh.v 
+# -- Compiling module fifo_generator_vlog_beh
+# -- Compiling module fifo_generator_v13_2_1_CONV_VER
+# -- Compiling module fifo_generator_v13_2_1_sync_stage
+# -- Compiling module fifo_generator_v13_2_1_bhv_ver_as
+# -- Compiling module fifo_generator_v13_2_1_beh_ver_ll_afifo
+# -- Compiling module fifo_generator_v13_2_1_bhv_ver_ss
+# -- Compiling module fifo_generator_v13_2_1_bhv_ver_preload0
+# -- Compiling module fifo_generator_v13_2_1_axic_reg_slice
+# 
+# Top level modules:
+# 	fifo_generator_vlog_beh
+# End time: 18:36:28 on Aug 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:28 on Aug 13,2022
+# vcom -64 -93 -work fifo_generator_v13_2_1 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:29 on Aug 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:29 on Aug 13,2022
+# vlog -64 -incr -work fifo_generator_v13_2_1 "+incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD" ../../../../GTH_ex.ip_user_files/ipstatic/hdl/fifo_generator_v13_2_rfs.v 
+# 
+# Top level modules:
+# End time: 18:36:29 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:29 on Aug 13,2022
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD" ../../../../GTH_ex.srcs/sources_1/ip/FIFO/sim/FIFO.v 
+# -- Compiling module FIFO
+# 
+# Top level modules:
+# 	FIFO
+# End time: 18:36:29 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:29 on Aug 13,2022
+# vcom -64 -93 -work xbip_utils_v3_0_8 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:29 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:29 on Aug 13,2022
+# vcom -64 -93 -work axi_utils_v2_0_4 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/axi_utils_v2_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:30 on Aug 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:30 on Aug 13,2022
+# vcom -64 -93 -work xbip_pipe_v3_0_4 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:30 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:30 on Aug 13,2022
+# vcom -64 -93 -work xbip_dsp48_wrapper_v3_0_4 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:30 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:30 on Aug 13,2022
+# vcom -64 -93 -work xbip_dsp48_addsub_v3_0_4 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:31 on Aug 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:31 on Aug 13,2022
+# vcom -64 -93 -work xbip_bram18k_v3_0_4 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:31 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:31 on Aug 13,2022
+# vcom -64 -93 -work mult_gen_v12_0_13 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:32 on Aug 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:32 on Aug 13,2022
+# vcom -64 -93 -work floating_point_v7_0_14 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/floating_point_v7_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:36 on Aug 13,2022, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:36 on Aug 13,2022
+# vcom -64 -93 -work xbip_dsp48_mult_v3_0_4 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:36 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:36 on Aug 13,2022
+# vcom -64 -93 -work xbip_dsp48_multadd_v3_0_4 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:37 on Aug 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:37 on Aug 13,2022
+# vcom -64 -93 -work div_gen_v5_1_12 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/div_gen_v5_1_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:38 on Aug 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:38 on Aug 13,2022
+# vcom -64 -93 -work xil_defaultlib ../../../../GTH_ex.srcs/sources_1/ip/phase_number/sim/phase_number.vhd ../../../../GTH_ex.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity phase_number
+# -- Compiling architecture phase_number_arch of phase_number
+# -- Compiling entity mult_gen_0
+# -- Compiling architecture mult_gen_0_arch of mult_gen_0
+# End time: 18:36:38 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:38 on Aug 13,2022
+# vcom -64 -93 -work c_reg_fd_v12_0_4 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:38 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:38 on Aug 13,2022
+# vcom -64 -93 -work xbip_addsub_v3_0_4 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/xbip_addsub_v3_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:38 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:38 on Aug 13,2022
+# vcom -64 -93 -work c_addsub_v12_0_11 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/c_addsub_v12_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:39 on Aug 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:39 on Aug 13,2022
+# vcom -64 -93 -work cordic_v6_0_13 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/cordic_v6_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:40 on Aug 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:40 on Aug 13,2022
+# vcom -64 -93 -work xil_defaultlib ../../../../GTH_ex.srcs/sources_1/ip/arctan/sim/arctan.vhd ../../../../GTH_ex.srcs/sources_1/ip/multiplier/sim/multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity arctan
+# -- Compiling architecture arctan_arch of arctan
+# -- Compiling entity multiplier
+# -- Compiling architecture multiplier_arch of multiplier
+# End time: 18:36:40 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:40 on Aug 13,2022
+# vcom -64 -93 -work c_mux_bit_v12_0_4 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/c_mux_bit_v12_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:41 on Aug 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:41 on Aug 13,2022
+# vcom -64 -93 -work c_shift_ram_v12_0_11 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/c_shift_ram_v12_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:41 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:41 on Aug 13,2022
+# vcom -64 -93 -work cmpy_v6_0_14 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/cmpy_v6_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:42 on Aug 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:42 on Aug 13,2022
+# vcom -64 -93 -work xfft_v9_0_14 ../../../../GTH_ex.ip_user_files/ipstatic/hdl/xfft_v9_0_vh_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 18:36:46 on Aug 13,2022, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:46 on Aug 13,2022
+# vcom -64 -93 -work xil_defaultlib ../../../../GTH_ex.srcs/sources_1/ip/FFT/sim/FFT.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FFT
+# -- Compiling architecture FFT_arch of FFT
+# End time: 18:36:46 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:46 on Aug 13,2022
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../GTH_ex.srcs/sources_1/ip/CLK_RD" ../../../../GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD_clk_wiz.v ../../../../GTH_ex.srcs/sources_1/ip/CLK_RD/CLK_RD.v ../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_tx_startup_fsm.v ../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rx_startup_fsm.v ../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_init.v ../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_cpll_railing.v ../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_gt.v ../../../../GTH_ex.srcs/sources_1/ip/GTH/gth_multi_gt.v ../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_gtrxreset_seq.v ../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxpmarst_seq.v ../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_rxrate_seq.v ../../../../GTH_ex.srcs/sources_1/ip/GTH/GTH/example_design/gth_sync_block.v ../../../../GTH_ex.srcs/sources_1/ip/GTH/gth.v ../../../../GTH_ex.srcs/sources_1/new/FIFO_ctrl.v ../../../../GTH_ex.srcs/sources_1/new/FIFO_ctrl2.v ../../../../GTH_ex.srcs/sources_1/new/compare.v ../../../../GTH_ex.srcs/sources_1/new/cos_S1.v ../../../../GTH_ex.srcs/sources_1/new/cos_S2.v ../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_common.v ../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_common_reset.v ../../../../GTH_ex.srcs/sources_1/imports/example_design/gth_exdes.v ../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_gt_usrclk_source.v ../../../../GTH_ex.srcs/sources_1/imports/example_design/support/gth_support.v ../../../../GTH_ex.srcs/sources_1/new/phase_top.v ../../../../GTH_ex.srcs/sim_1/imports/simulation/gth_tb.v 
+# -- Compiling module CLK_RD_clk_wiz
+# -- Compiling module CLK_RD
+# -- Compiling module GTH_TX_STARTUP_FSM
+# -- Compiling module GTH_RX_STARTUP_FSM
+# -- Compiling module GTH_init
+# -- Compiling module GTH_cpll_railing
+# -- Compiling module GTH_GT
+# -- Compiling module GTH_multi_gt
+# -- Compiling module gth_gtrxreset_seq
+# -- Compiling module gth_rxpmarst_seq
+# -- Compiling module gth_rxrate_seq
+# -- Compiling module GTH_sync_block
+# -- Compiling module GTH
+# -- Compiling module FIFO_ctrl
+# -- Compiling module FIFO_ctrl2
+# -- Compiling module compare
+# -- Compiling module cos_S1
+# -- Compiling module cos_S2
+# -- Compiling module GTH_common
+# -- Compiling module GTH_common_reset
+# -- Compiling module GTH_exdes
+# -- Compiling module GTH_GT_USRCLK_SOURCE
+# -- Compiling module GTH_support
+# -- Compiling module phase_top
+# -- Compiling module GTH_TB
+# 
+# Top level modules:
+# 	gth_rxrate_seq
+# 	GTH_TB
+# End time: 18:36:46 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:36:46 on Aug 13,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:36:46 on Aug 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
